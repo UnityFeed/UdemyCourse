@@ -1,0 +1,18 @@
+p {
+  text-decoration: underline;
+  line-height: 20px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Times New Roman", Georgia;
+  font-size: 180%;
+}
+
+img {
+  float: right;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 150%;
+}

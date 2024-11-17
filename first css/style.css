@@ -1,0 +1,62 @@
+/* * star means all elements */
+/* element, element both elements get the same changes */
+/* element1 element2 only element2 inside a element1 gets the change  */
+/* element1 > element2 all element2 with a parents element1 gets the changes */
+/* element1 + element2 only select element2 after element1  */
+/* :hover style only in effect if mouse over */
+/* :last-child or first-child only apply style on the last or first element in a class*/
+/* !important this gives prio to the style - not recommended*/
+/* whet selecter win out in cascade depends on: 
+-specificity -importance - source order */
+
+a:link,
+a:visited {
+  color: white;
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 255, 0.774),
+    purple,
+    rgba(255, 0, 0, 0.747)
+  );
+  background-size: 100% 300%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+ul {
+  color: white;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+li {
+  margin: 20px;
+}
+
+h2 {
+  color: #555500;
+  text-align: center;
+  border: 3px solid rgb(212, 114, 106);
+  cursor: pointer;
+}
+
+p {
+  color: rgb(255, 255, 255);
+}
+
+.text {
+  border: 2px dashed;
+}
+
+#div1 {
+  background: rgba(0, 0, 0, 0.26);
+}
+
+#div2 {
+  background: rgba(214, 117, 5, 0.37);
+}
