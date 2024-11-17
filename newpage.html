@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Page</title>
+  </head>
+  <body>
+    <h1>Welcome to the advance HTML</h1>
+
+    <!-- use GET, not POST. it keeps data from showing in URL -->
+    <form method="GET">
+      Last Name: <input type="text" name="firstname" required />
+      <br />
+      First Name: <input type="text" name="lastname" required />
+      <br />
+      Email: <input type="email" name="email" required />
+      <br />
+      Password: <input type="password" name="password" required min="8" />
+      <br />
+      Birthday: <input type="date" name="birthday" required />
+      <br />
+      Gender:
+      <input type="radio" name="gender" value="male" required />male
+      <input type="radio" name="gender" value="female" required />female
+      <br />
+      Pets:
+      <input type="checkbox" name="pet" /> cat
+      <input type="checkbox" name="pet" /> dog
+      <br />
+      Cars:
+      <select name="cars" required>
+        <option value="" select></option>
+        <option value="volvo">Volvo</option>
+        <option value="audi">Audi</option>
+        <option value="bmw">bmw</option>
+      </select>
+      <br />
+      <input type="submit" value="Register!" />
+      <input type="reset" />
+    </form>
+
+    <br />
+    <a href="index.html">Home</a>
+  </body>
+</html>
